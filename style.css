@@ -1,0 +1,406 @@
+
+body{
+    background-image: url("img/thailand.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover; 
+    width: 100vw;
+    height:20vh;
+    overflow-x: hidden;
+   
+}
+.header1{
+  
+    color: white;
+    font-size: 2vmin;
+   
+}
+.header2{
+    color: white;
+    font-size: 4vmin;
+   
+}
+header{
+    
+    text-align: center;
+    padding-top: 20%;
+}
+
+nav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0,0.6);
+}
+
+nav ul li{
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    padding: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    color: #fff;
+    
+   
+}
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0,0.6) ;
+     border-radius:4px ;
+}
+.head{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    float: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 14px;
+}
+.active , nav ul li:hover{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#submit{
+    height: 50px;
+    width: 20%;
+    background-color:  rgba(0, 0, 0,0.6);
+    color: #fff;
+    border-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40%;
+    text-transform: uppercase;
+}
+#submit:hover{
+color: cornsilk
+}
+.fa-solid{
+    display: none;
+}
+.cnt1{
+    text-align: center;
+    padding-top: 44px;
+    text-transform: uppercase;
+    font-size: 4vmin;
+    color: rgb(8, 8, 8);
+}
+
+
+
+#sub{
+    height: 10%;
+    width: 30%;
+    background-color:  rgba(0, 0, 0,0.6);
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border-color: #fff;
+    border: 3px ;
+    color: #fff;
+}
+#sub:hover{
+    color:antiquewhite;
+}
+.image2{
+    text-align: center;
+    height: 440px;
+    width: 420px;
+    cursor: pointer;
+   
+    box-shadow: 10px,10px,10px,20px black;
+}
+
+.inform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.fa-solid{
+    visibility: hidden;
+}
+.holder{
+    background-image: url(img/nature.jpg);
+    background-repeat: no-repeat;
+    height: 108vh;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    margin-top: 5%;
+    
+}
+.for{
+    width: 80%;
+    padding-top: 10%;
+    text-transform: uppercase;
+    padding-right: 50%;
+    font-size: 4vmin;
+}
+.p{
+    font-size: 3vmin;
+    padding-left: 7%;
+}
+
+.line2{
+    width: 150px;
+    height: 4px;
+    margin-left: 45%;
+    background-color: royalblue;
+    margin-bottom: 4%;
+}
+.row{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 3vmin;
+    margin: 10px;
+    width: 40%;
+    margin-left: 100px;
+}
+
+.imagegallery img{
+   width: 250px;
+   margin: 10px;
+   
+}
+
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.line3{
+    width: 150px;
+    height: 4px;
+    margin-left: 35%;
+    background-color: royalblue;
+    margin-bottom: 4%;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    padding: 20px 80px;
+    margin: 0%;
+    background-color: #484872;
+    text-align: center;
+    position: absolute;
+    left: 0%;
+}
+.footer p{
+    color: whitesmoke;
+    margin: 20px auto;
+}
+img{
+    box-shadow: 0px,0px, 40px, 40px gray;
+     transition: transform .3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+nav ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: black;
+    opacity: 0.8;
+    
+    
+}
+nav ul li ul li{
+    width: 70%;
+    border-top: 1px solid gray;
+}
+nav ul li ul{
+    position:absolute;
+    visibility:hidden;
+}
+
+
+nav ul li:hover > ul{
+visibility: visible;
+}
+::selection{
+    background-color: #cf2e2e;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:975px) {
+
+    .head{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+   
+
+    nav ul{
+        flex-direction: column;
+        margin-top: -1100px;
+        justify-content: center;
+        background-color: #484872;
+        height: 100vh;
+        width: 100%;
+        transition: 0.5s;
+    }
+ 
+    nav ul li{
+        margin-top: 90px;
+        width: 30%;
+    }
+    nav ul ul {
+        top: 1100px;
+        position: static;
+        height: 0px;
+        background: none;
+       
+       
+    }
+    nav ul li ul li{
+    display: block;
+    width: 100%;
+    margin: 7px;
+    }
+
+    nav{
+        background: none;
+    }
+     
+    .fa-solid{
+        color: #fff;
+        float:right;
+        font-weight: 900;
+        font-size: 50px;
+        position: absolute;
+        top: 4%;
+        right: 5%;
+        width: 40px;
+        cursor: pointer;
+    }
+   
+    .menu{
+        margin-top: 165%;
+        
+    }
+    .cnt1{
+        padding-top: 55%;
+    }
+    header{
+        padding-top: 80%;
+      
+    }
+     .inform{
+       margin-left: 0%;
+        flex-direction: column;
+        
+     }
+     .image2{
+       margin-left: 0%;
+        margin-top: 10%;
+        margin-left: 0%;
+     }
+  
+     .fa-solid{
+        visibility: visible;
+     }
+     .for{
+        padding-top: 50%;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: medium;
+        
+     }
+     .line{
+        margin-left: 55%;
+     }
+    .line2{
+        margin-left: 35%;
+    }
+    .ctn2{
+        text-align: center;
+    }
+   
+    .information{
+        flex-direction: column;
+    }
+     .row{
+        
+       margin-left: 1%;
+       width: 100%;
+      
+     }
+     .footer p{
+        padding-left: 0%;
+        margin-left: 0%;
+     }
+     .footer{
+        width: 70%;
+        height: 150px;
+     }
+
+
+    }
+
+
+
+   
+    
+     
+
+
+    
+    
+     
+ 
+
+
+
+@media only screen and (max-width:1580px){
+ .cnt1{
+    padding-top: 10%;
+ }
+
+
+}
+@media only screen and (max-width:455px){
+    .cnt1{
+     
+        margin-left: 0%;
+       padding-top: 80%;
+    }
+    .line2{
+       margin-left: 30%;
+    }
+   
+   
+   }
+
